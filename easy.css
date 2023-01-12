@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background: #1a0321;
+    font-family:consolas;
+}
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 60px 120px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: #fcf4f4;
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+    transition-delay: 1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#c3b6b6);
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#c3b6b6);
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffffff);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffffff);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+
+#b2{
+    position: relative;
+    display: inline-block;
+    padding: 60px 120px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+#b2:hover{
+    background: #2f2498;
+    box-shadow: 0 0 10px #2f2498, 0 0 40px #2f2498, 0 0 80px #2f2498;
+    transition-delay: 1s;
+ }
+#b2 span{
+    position: absolute;
+    display: block;
+}
+#span11{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#30247c);
+ }
+ #b2:hover #span11{
+    left: 100%;
+    transition: 1s;
+}
+ #span33{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#1f38d8);
+}
+ #b2:hover #span33{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span22{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#1906c1);
+}
+#b2:hover #span22{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span44{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#131cbc);
+}
+#b2:hover #span44{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+#b3{
+    position: relative;
+    display: inline-block;
+    padding: 60px 120px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+#b3:hover{
+    background: #4fccec;
+    box-shadow: 0 0 10px hsl(188, 100%, 56%), 0 0 40px #30d9ff, 0 0 80px #72e5ff;
+    transition-delay: 1s;
+ }
+#b3 span{
+    position: absolute;
+    display: block;
+}
+#span111{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#367bea);
+ }
+ #b3:hover #span11{
+    left: 100%;
+    transition: 1s;
+}
+ #span333{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#367bea);
+}
+ #b3:hover #span333{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span222{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#367bea);
+}
+#b3:hover #span222{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span444{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2ddfff);
+}
+#b3:hover #span444{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
